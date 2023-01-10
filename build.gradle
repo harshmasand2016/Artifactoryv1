@@ -19,5 +19,8 @@ buildscript {
 
 allprojects {
     apply plugin: "com.jfrog.artifactory"
-
+    repositories {
+        google()
+        mavenCentral()
+    }
 }
